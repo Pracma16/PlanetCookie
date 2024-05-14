@@ -1,0 +1,26 @@
+.welcome-section{
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .welcome-section{
+    padding-top: 50px;  
+    display: flex;
+    flex-direction: column; 
+  }
+}
+.welcome-section h1{
+   font-weight: 200;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw; 
+    height: 100vh;
+}
+
+
+

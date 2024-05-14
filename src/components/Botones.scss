@@ -1,0 +1,69 @@
+.custom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #495bfc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0f4b8b;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-button {
+      font-size: 14px;
+    }
+  }
+  
+//BotonesMenu
+
+.custom-button-menu {
+  padding: 0px 20px;
+  font-size: 17px;
+  border: none;
+  background: none;
+  color: #202020;
+  cursor: pointer;
+  
+}
+
+.custom-button-menu:hover {
+  color: #495bfc;
+}
+
+@media (max-width: 768px) {
+  .custom-button-menu {
+    font-size: 14px;
+  }
+}
+  
+//BotonesSecundario
+
+.custom-button-secundarios {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  color: #f3479d;
+  cursor: pointer;
+  background: #FEE2E2;
+  border-radius: 5px;
+  border: 0.5px solid #f3479d;
+}
+
+.custom-button-secundarios:hover {
+  color: #f3479d;
+  transition-duration: 0.5ms;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 3px rgb(901,154,406,855);
+}
+
+@media (max-width: 768px) {
+  .custom-button-secundarios {
+    font-size: 14px;
+  }
+}
