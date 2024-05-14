@@ -10,6 +10,7 @@
     max-height: 650px;
     object-fit: cover;
     object-position: center;
+    transition: opacity 0.5s ease;
   }
   
   .prev-button, .next-button {
@@ -48,4 +49,10 @@
       padding: 8px; 
     }
   }
+  
+ 
+
+
+  
+ 
   
